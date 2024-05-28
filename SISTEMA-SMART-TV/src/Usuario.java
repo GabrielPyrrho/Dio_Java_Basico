@@ -15,7 +15,7 @@ public class Usuario {
 
 
         
-        System.out.println("Volume atual: " + smartTv.volume);
+        
         System.out.println("TV Ligada? " + smartTv.ligada);
 
         smartTv.ligar ();
