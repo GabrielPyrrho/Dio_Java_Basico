@@ -1,14 +1,17 @@
 public class Operadores {
     public static void main(String[] args) {
-        int numero = 5;
-        
-        //x repetição
+        int a, b;
+        a = 5;
+        b = 7;
 
-        numero ++;
+        String resultado = "";
+        if (a == b) 
+            resultado = "Iguais";
+        else
+            resultado = "Diferentes";
 
-        System.out.println(numero);
-        
-        System.out.println(numero ++);
+
+        System.out.println(resultado);
     }
 
 }
